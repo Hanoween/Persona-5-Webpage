@@ -19,9 +19,13 @@ body {
     list-style: none;
 }
 
-a {
+.header a {
     color: white;
+}
+
+a {
     text-decoration: none;
+    color: blueviolet;
 }
 
 .top {
@@ -39,7 +43,7 @@ a {
     gap: 8px;
 }
 
-.subtext {
+.top .subtext {
     font-size: 24px;
     font-weight: 300;
 }
@@ -53,6 +57,32 @@ a {
 }
 
 .upper-middle {
+    background-color: black;
+    color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    gap: 150px;
+    padding-bottom: 75px;
+}
+
+.upper-middle .subtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.info {
+    padding: 50px;
+    font-size: 45px;
+}
+
+.text {
+    width: 300px;
+    text-align: center;
 }
