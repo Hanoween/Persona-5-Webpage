@@ -1,5 +1,6 @@
 body {
-    margin: 16px 0;
+    margin-top: 16px;
+    margin-bottom: 0;
     background-color: #e90003;
     font-family: 'Source Serif Pro', serif;
     font-weight: 700;
@@ -137,4 +138,12 @@ a {
     border-radius: 8px;
     color: white;
     border-color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 16px;
 }
