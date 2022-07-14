@@ -1,6 +1,8 @@
 body {
     margin-top: 16px;
     margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
     background-color: #e90003;
     font-family: 'Source Serif Pro', serif;
     font-weight: 700;
