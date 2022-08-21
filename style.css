@@ -187,7 +187,9 @@ a {
         width: 100%;
         margin-bottom: 5vw;
     }
-
+    .title {
+        text-align: center;
+    }
     .top img {
         padding: 0 0 10vw 0;
         width: 90vw;
@@ -207,5 +209,6 @@ a {
         margin-right:auto !important;
         padding-left:0 !important;
         padding-right:0 !important;
+        overflow-x: hidden;
      }
 }
